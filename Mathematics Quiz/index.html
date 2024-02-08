@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Mathematics Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer> </script>
+</head>
+<body>
+
+  <!-- main section -->
+
+<div class="container" id="first">
+  <div class="row" id="row-head">
+    <div class="col-12" id="col-head">
+      <h1>Mathematics Quiz</h1>
+    </div>
+  </div>
+    <div class="row" id="r1">
+        <div class="col-auto" id="c1">
+         <button id="main1" onclick="addition()">  Addition </button>
+        </div>
+        <div class="col-auto" id="c2">
+         <button id="main2" onclick="subtraction()"> Subtraction </button>
+        </div>
+    </div>
+
+    <div class="row" id="r2">
+        <div class="col-auto" id="c1">
+          <button id="main3" onclick="multiplication()"> Multiplication </button>
+        </div>
+        <div class="col-auto" id="c2">
+           <button id="main4" onclick="division()"> Division </button>
+        </div>
+    </div>
+</div>
+
+<!-- addition section -->
+
+<div class="container-fluid" id="add">
+    <div class="row justify-content-center">
+        <div class="col-6 w-auto">
+          <form class="form" id="form">
+        <div class="questions">
+            <h4 class="questionNo" id="questionNo">Question: <span>0</span></h4>
+            <h4 class="score" id="score">Score: <span>0</span></h4>
+        </div>
+          <h1 className="question" id="questionAdd">What is 1 Addition by 1?</h1>
+          <input class="input" id="input" type="text" placeholder="Enter Your Answer" autocomplete="off"><br>
+          <button> Submit</button>
+          </form>
+       </div>
+    </div>
+</div>
+
+<!-- subtract section -->
+
+<div class="container-fluid" id="sub">
+<div class="row justify-content-center">
+  <div class="col-6 w-auto">
+      <form class="form" id="formSub">
+        <div class="questions">
+          <h4 class="questionNo" id="questionNo">Question: <span>0</span></h4>
+          <h4 class="score" id="score">Score: <span>0</span></h4>
+      </div>
+          <h1 id="questionSub">What is 1 Substract by 1?</h1>
+          <input class="input" id ="input" type="text" placeholder="Enter Your Answer" autocomplete="off"><br>
+          <button>Submit</button>
+      </form>
+  </div>
+</div>
+</div>
+
+<!-- multiplication section -->
+
+<div class="container-fluid" id="mul">
+<div class="row justify-content-center">
+  <div class="col-6 w-auto">
+      <form class="form" id="form">
+        <div class="questions">
+          <h4 class="questionNo" id="questionNo">Question: <span>0</span></h4>
+          <h4 class="score" id="score">Score: <span>0</span></h4>
+      </div>
+          <h1 id="questionMul">What is 1 Multiplication by 1?</h1>
+          <input class="input" id ="input" type="text" placeholder="Enter Your Answer" autocomplete="off"><br>
+          <button>Submit</button>
+      </form>
+  </div>
+</div>
+</div>
+
+<!-- Divide section -->
+
+<div class="container-fluid" id="divide">
+<div class="row justify-content-center">
+  <div class="col-6 w-auto">
+      <form class="form" id="form">
+        <div class="questions">
+          <h4 class="questionNo" id="questionNo">Question: <span>0</span></h4>
+          <h4 class="score" id="score">Score: <span>0</span></h4>
+      </div>
+          <h1 id="questionDiv"> </h1>
+          <input class="input" id ="input" type="text" placeholder="Enter Your Answer" autocomplete="off"><br>
+          <button>Submit</button>
+      </form>
+  </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+
+body, html{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+/* Border Styling */
+.border{
+    padding: 55px;
+    border-radius: 20px;
+    box-shadow: inset 3px 5px 10px white,
+                      18px 5px 10px whitesmoke,
+                      3px 5px 10px whitesmoke;
+}
+
+/* column styling */
+.col button{
+  margin: 5px;
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: inset 3px 55px 10px white,
+                    18px 5px 10px whitesmoke;
+}
+
+#display, #remove{
+ padding: 5px 23px 5px 7px;
+}
+/* input box styling */
+#screen{
+    height: 50px;
+    width: fit-content;
+    box-shadow:  13px 15px 10px white,
+                 inset 13px 15px 10px whitesmoke;
+    padding-right: 7%;
+    font-size: x-large;
+    border: none;
+}
+
+/* row styling */
+.row{
+    padding: 2px 0;
+    width: 100%;
+    margin: 10px 5px;
+}
+.col{
+    width: fit-content;
+}
+/* column hover styling */
+.col button:hover {
+    box-shadow: inset 5px 2px 10px gray;
+    background-color: white;
+}
+
+/* clear and delete button styling */
+#remove{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
