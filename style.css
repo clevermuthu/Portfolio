@@ -9,6 +9,7 @@ body {
 .container-fluid{
     width: 100vw;
 }
+/*Navbar Section */
   .navbar {
     width: 100%;
     text-align: center;
@@ -25,7 +26,7 @@ body {
     width: fit-content;
 }
 
-
+/*Home Section */
 #first{
     height: 100vh;
     width: 100vw;
@@ -49,7 +50,7 @@ body {
     text-decoration: none;
     border: 1px solid;
     border-radius: 18px;
-    background-color:#333332;
+    background-color: #8b4e51;
     padding: 7px 15px;
     color:  #f6d092;
     font-size: x-large;
@@ -60,8 +61,8 @@ body {
 #first span{
     color: #f6d092;
 }
-#first a{
-    background-color: #8b4e51;
+#first #sec1 h5{
+    line-height: 2;
 }
 nav ul li a::after {
 
